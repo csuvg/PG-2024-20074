@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+h1, h2, h3, h4, h5, h6{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600!important;
+    color: #464646!important;
+}
+
+p, a{
+    font-family: "Open Sans", sans-serif;
+    color: #464646;
+    margin-bottom: 0;
+}
+
+.explanation{
+    padding: 10rem;
+}
+
+.centered{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.centered p{
+    text-align: center;
+}
+
+.iframe{
+    height: 358px;
+    width: 100%;
+}
+
+.button{
+    background-color: #fe7018;
+    border-radius: 5px;
+    padding: 10px 15px;
+    color: #000;
+    text-decoration: none;
+    transition: 0.5s all ease;
+}
+
+.button:hover{
+    background-color: #fff;
+    color: #fe7018;
+    border: 1px solid #fe7018;
+}
+
+.form-file {
+    margin-bottom: 15px;
+}

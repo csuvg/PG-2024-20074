@@ -1,0 +1,19 @@
+.centered{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.centered h2{
+    text-align: center;
+}
+
+.centered p{
+    text-align: center;
+}
+
+.iframe{
+    height: 358px;
+    width: 100%;
+}
